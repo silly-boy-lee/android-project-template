@@ -1,5 +1,9 @@
 apply plugin: 'com.android.application'
 
+/*ButterKnife依赖添加  开始*/
+apply plugin: 'android-apt'
+/*ButterKnife依赖添加  结束*/
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
@@ -30,4 +34,9 @@ dependencies {
     /*单元测试jar包  开始*/
     testCompile 'junit:junit:4.12'
     /*单元测试jar包  结束*/
+
+    /*ButterKnife依赖添加  开始*/
+    compile 'com.jakewharton:butterknife:8.4.0'
+    apt 'com.jakewharton:butterknife-compiler:8.4.0'
+    /*ButterKnife依赖添加  结束*/
 }

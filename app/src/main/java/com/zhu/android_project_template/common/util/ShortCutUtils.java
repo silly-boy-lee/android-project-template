@@ -8,8 +8,7 @@ import android.content.Intent.ShortcutIconResource;
 import android.database.Cursor;
 import android.net.Uri;
 
-import com.zhulingfeng.android.R;
-
+import com.zhu.android_project_template.R;
 
 /**
  * @ClassName: ShortCutUtils

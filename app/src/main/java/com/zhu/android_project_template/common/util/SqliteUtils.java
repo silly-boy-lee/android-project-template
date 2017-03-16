@@ -3,7 +3,8 @@ package com.zhu.android_project_template.common.util;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.zhulingfeng.android.util.db.DbHelper;
+import com.zhu.android_project_template.common.util.db.DbHelper;
+
 
 /**
  * @ClassName: SqliteUtils

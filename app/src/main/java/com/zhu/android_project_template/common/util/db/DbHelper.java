@@ -4,8 +4,9 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.zhulingfeng.android.util.AppUtils;
-import com.zhulingfeng.android.util.ToastUtils;
+import com.zhu.android_project_template.common.util.AppUtils;
+import com.zhu.android_project_template.common.util.ToastUtils;
+
 
 /**
  * @ClassName: DbHelper

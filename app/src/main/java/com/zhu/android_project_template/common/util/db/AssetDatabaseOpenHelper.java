@@ -129,7 +129,7 @@ public class AssetDatabaseOpenHelper {
 
     /**
      * @FunctionName: getFromAssets
-     * @description: 从assets文件夹中读取文件并获取数据
+     * @description: 从assets文件夹中读取文件并获取数据f
      * @author:  Mr.Lee
      * @param context ctx 上下文
      * @param fileName 文件名
